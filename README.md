@@ -1,6 +1,6 @@
 # treasureislandpython
 
-As a kid, I was obsessed with those Fighting Fantasy books where you created your own route through the game.
+As a kid, I was obsessed with those Fighting Fantasy books where you created your own route through the game. I had a huge collection of the series.
 Here is a very simple version of those games, using Python.
 
 ![fightingfantasyscorcery(4)](https://github.com/DominicSimpson/treasureislandpython/assets/52511353/2e90ecd4-f770-4fc1-a2b7-5e3ce9b4add7)
