@@ -41,7 +41,25 @@ if choice == "left":
         if whichdoor == "red":
             print("It's a room full of fire. Game Over")
         elif whichdoor == "yellow":
-            print("You found the treasure! You win! Congratulations!")
+            print("You found the treasure map! Now let's find the treasure!")
+
+            row1 = ["⬜️", "⬜️", "⬜️"]
+            row2 = ["⬜️", "⬜️", "⬜️"]
+            row3 = ["⬜️", "⬜️", "⬜️"]
+            treasure_map = [row1, row2, row3]
+            print(f"{row1}\n{row2}\n{row3}")
+
+            position = input("Where do you want to put the treasure? Enter two digits ")
+
+            horizontal_row = int(position[0])
+            vertical_column = int(position[1])
+
+            treasure_map[vertical_column - 1][horizontal_row - 1] = "X"
+
+            print("Congratulations! You have placed the treasure on the map:")
+            print(f"{row1}\n{row2}\n{row3}")
+            print("You found the treasure and won the game! Ooh aar, me hearties! Congratulations!!")
+
         elif whichdoor == "blue":
             print("You enter a room full of poisonous beasts. Game Over")
         else:
@@ -55,4 +73,4 @@ if choice == "left":
         )
 
 else:
-    print("You fell into a hole. Game Over.")
+    print("You fell into a hole. Oh well. Game Over.")
