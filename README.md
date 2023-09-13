@@ -1,4 +1,4 @@
-# treasureislandpython
+# Treasure Island in Python
 
 As a kid, I was obsessed with those Fighting Fantasy books where you created your own route through the game. I had a huge collection of the series.
 Here is a very simple version of those games, using Python.
